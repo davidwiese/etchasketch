@@ -71,6 +71,18 @@ select {
   }
 }
 
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 .etch {
   display: flex;
   flex-wrap: wrap;
@@ -82,4 +94,13 @@ select {
   width: 30px;
   height: 30px;
   border: 1px solid black;
+}
+
+#new-grid-btn {
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
 }
