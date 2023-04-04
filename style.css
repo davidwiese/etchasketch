@@ -70,3 +70,15 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+.etch {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+}
