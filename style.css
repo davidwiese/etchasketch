@@ -74,6 +74,7 @@ select {
 .etch {
   display: flex;
   flex-wrap: wrap;
+  width: 480px;
 }
 
 .square {
